@@ -148,4 +148,4 @@ def read_json(filename: str):
     
 if __name__ == '__main__':
     config = read_json("config.json")
-    app = App(email=["email"], password=config["password"], resultLimit=25, keyword_search=["exmark mower", "chainsaw", "playstation 5"])
+    app = App(email=config["email"], password=config["password"], resultLimit=25, keyword_search=["exmark mower", "chainsaw", "playstation 5"])
