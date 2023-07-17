@@ -11,3 +11,4 @@
 
 ### Setting up your credentials
     Go into config.txt and replace username and password with yours
+due to the way facebook dynamically changes their css classes; this project requires manually replacing the class to search for.  If anyone finds a solution please lmk or make a branch and ill merge it in
